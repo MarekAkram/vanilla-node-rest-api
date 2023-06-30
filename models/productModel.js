@@ -5,7 +5,7 @@ const { writeDataToFile } = require('../utils')
 
 function findAll() {
     return new Promise((resolve, reject) => {
-        resolve(products)
+        resolve(products) 
     })
 }
 
